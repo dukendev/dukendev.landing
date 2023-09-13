@@ -1,6 +1,5 @@
 import { FaSolidBars } from 'solid-icons/fa'
 import { Show, createSignal } from 'solid-js';
-import { A } from "@solidjs/router";
 
 function NavBar() {
     const [nav,setNav] = createSignal(false);
@@ -10,16 +9,10 @@ function NavBar() {
                 <h1>DukeAndDev</h1>
             </div>
             <ul class="hidden md:flex p-1 cursor-pointer">
-            <A href='/'>
              <li class="px-4 hover:scale-150 hover:text-cyan-300 duration-200">Home</li>
-            </A>
-            <A href='/skills'>
                 <li class="px-4 hover:scale-150 hover:text-cyan-300 duration-200">Skills</li>
-            </A>
 
-            <A href='/experience'>             
                 <li class="px-4 hover:scale-150 hover:text-cyan-300 duration-200">Experience</li>
-            </A>
 
              <li class="px-4 hover:scale-150 hover:text-cyan-300 duration-200">Projects</li>
              <li class="px-4 hover:scale-150 hover:text-cyan-300 duration-200">About</li>

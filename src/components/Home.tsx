@@ -1,7 +1,8 @@
 
 function Home() {
     return (
-        <div class="w-full h-400  px-10 py-80 text-start bg-transparent z-10 text-white">
+        <section>        
+            <div class="w-full h-400  px-10 py-80 text-start bg-transparent z-10 text-white">
 
                     <h1 class="text-6xl p-2">Hi, I am Sanjeet Yadav</h1>
                     <h2 class=" text-3xl px-2 text-cyan-300">Software Development Engineer</h2>
@@ -13,7 +14,9 @@ function Home() {
                     </p>
 
             
-        </div>
+         </div>
+        </section>
+
     )
 }
 
