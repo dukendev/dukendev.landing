@@ -1,0 +1,29 @@
+{
+  "name": "dukendev-prod",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.8.3",
+    "json-loader": "^0.5.7",
+    "solid-icons": "^1.0.11",
+    "solid-js": "^1.7.8",
+    "tailwind-typewriter": "^1.0.1",
+    "three": "^0.155.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "@types/three": "^0.155.1",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}

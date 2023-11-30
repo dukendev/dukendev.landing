@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sec-hide{
+   opacity: 0;
+   filter: blur(5px);
+   transform: translateX(-100%);
+   transition: all 1s; 
+}
+
+.sec-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.skill-logo:nth-child(2){
+    transition-delay: 1000ms;
+}
+.skill-logo:nth-child(3){
+    transition-delay: 2000ms;
+}
+
